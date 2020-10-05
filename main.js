@@ -1,3 +1,6 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
-ctx.fillRect(0, 0, 30, 30);
+
+canvas.width = innerWidth;
+canvas.height = innerHeight - 4;
+
