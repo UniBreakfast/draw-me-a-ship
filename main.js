@@ -1,4 +1,5 @@
 const canvas = document.getElementById("canvas");
+const palette = document.getElementById("palette");
 const ctx = canvas.getContext("2d");
 const coords = [];
 const colors = [
@@ -24,6 +25,10 @@ canvas.width = innerWidth;
 canvas.height = innerHeight - 4;
 
 fillPalette();
+
+palette.onclick = (e) => {
+  ctx.strokeStyle = e.target.style.backgroundColor;
+};
 
 canvas.onclick = (e) => {
   coords.push({ x: e.layerX, y: e.layerY });
