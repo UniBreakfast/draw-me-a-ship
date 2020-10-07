@@ -49,7 +49,7 @@ function drawContour(...coords) {
 
 function fillPalette() {
   const colorDivs = document.querySelectorAll("div.color");
-  for (let i = 0; i <= colors.length; i++) {
+  for (let i = 0; i < colors.length; i++) {
     colorDivs[i].style.backgroundColor = colors[i];
   }
 }
