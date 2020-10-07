@@ -2,3 +2,21 @@ body {
   margin: 0;
   background: url("./img/ship.webp") center no-repeat;
 }
+
+.palette {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  height: 86px;
+  width: 320px;
+  background-color: blue;
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.color {
+  border: 1px solid black;
+  width: 38px;
+  height: 30px;
+}
