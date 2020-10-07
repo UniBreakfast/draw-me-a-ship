@@ -8,8 +8,7 @@ body {
   top: 30px;
   left: 50%;
   height: 86px;
-  width: 320px;
-  background-color: blue;
+  width: 344px;
   transform: translateX(-50%);
   display: flex;
   flex-wrap: wrap;
@@ -18,6 +17,8 @@ body {
 }
 .color {
   border: 1px solid black;
+  border-radius: 8px;
   width: 38px;
   height: 30px;
+  margin: 1.5px;
 }

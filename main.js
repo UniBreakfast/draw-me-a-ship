@@ -11,14 +11,14 @@ const colors = [
   "orange",
   "pink",
   "green",
-  "black",
-  "yellow",
-  "blue",
-  "grey",
-  "white",
-  "orange",
-  "pink",
-  "green",
+  "red",
+  "brown",
+  "coral",
+  "cyan",
+  "teal",
+  "chartreuse",
+  "fuchsia",
+  "indigo",
 ];
 
 canvas.width = innerWidth;
